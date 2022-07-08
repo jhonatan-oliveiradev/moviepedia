@@ -14,7 +14,10 @@ const Footer = () => {
       </h2>
       <span>
         Foi feito com 💜 por{' '}
-        <a href="https://www.jhonatanoliveira.com">Jhonatan Oliveira</a>.
+        <a target="_blank" href="https://www.jhonatanoliveira.com">
+          Jhonatan Oliveira
+        </a>
+        .
       </span>
     </div>
   );
