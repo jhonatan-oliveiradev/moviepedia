@@ -51,7 +51,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 # 🚧 Projeto:
 
-### [Confira aqui!](https://moviepedia-theta.vercel.app/)
+### [Confira aqui!](https://moviepedia-two.vercel.app/)
 
 # 🎨 Inspiração:
 
