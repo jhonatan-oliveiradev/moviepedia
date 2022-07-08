@@ -1,0 +1,72 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+#navbar h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  background: linear-gradient(90.35deg, #da00ff, #e91e63, #ffc107);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}
+
+#navbar form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#navbar input {
+  padding: 0.3rem 2.5rem;
+  border-radius: 16px;
+  border: none;
+  outline: rgba(255, 255, 255, 0.2) solid 1px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.4s;
+}
+
+#navbar input::placeholder {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+#navbar input:focus {
+  outline: none;
+}
+
+#navbar form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+#navbar form button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
