@@ -31,9 +31,9 @@
 
 # 📄 Descrição:
 
-### O que será desenvolvido?
+### O que foi desenvolvido?
 
-- Plataforma de eventos baseada no próprio evento Ignite Lab.
+- Uma WebApp que traz informações de filmes, consumindo uma API externa.
 
 # 🚀 Tecnologias:
 
@@ -41,35 +41,21 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### React
 
-### TailwindCSS
+### React Router Dom
 
 ### Vite App
 
-### Apollo CLI
+### React Icons
 
-### GraphQL
-
-### Phosphor-react
-
-### Date-fns
-
-### GraphCMS
-
-### VimeJS
-
-### React Router DOM
-
-### GraphQL Code Generator
+### TMDB API
 
 # 🚧 Projeto:
 
-### [Confira aqui!](https://event-platform-five.vercel.app/)
+### [Confira aqui!](https://moviepedia-theta.vercel.app/)
 
 # 🎨 Inspiração:
 
-### Projeto desenvolvido durante o evento Ignite Lab da Rocketseat.
-
-[Figma](<https://www.figma.com/file/JX79L923aZkozzQTFixNsw/Plataforma-de-evento---Ignite-Lab-(Community)?node-id=8%3A399/>)
+### .
 
 # 📝 Licença
 
