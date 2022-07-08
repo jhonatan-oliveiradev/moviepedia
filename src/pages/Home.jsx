@@ -32,7 +32,7 @@ const Home = () => {
             <Spinner animation="grow" variant="light" />
             <Spinner animation="grow" variant="light" />
             <Spinner animation="grow" variant="light" />
-            <span className="visually-hidden">Loading...</span>
+            <span className="visually-hidden">Carregando...</span>
           </div>
         )}
         {topMovies.length > 0 &&

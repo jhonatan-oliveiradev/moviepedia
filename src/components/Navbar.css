@@ -13,6 +13,7 @@
   backdrop-filter: blur(15px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  z-index: 10;
 }
 
 #navbar h2 a {
@@ -35,6 +36,7 @@
 #navbar input {
   padding: 0.3rem 2.5rem;
   border-radius: 16px;
+  color: rgba(255, 255, 255, 0.6);
   border: none;
   outline: rgba(255, 255, 255, 0.2) solid 1px;
   background: rgba(255, 255, 255, 0.05);

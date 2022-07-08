@@ -1,0 +1,51 @@
+.footer-container {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding-right: 0.5rem;
+  background: linear-gradient(90.35deg, #da00ff, #e91e63, #ffc107);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}
+
+.footer-container span {
+  display: flex;
+  padding-top: 0.3rem;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.footer-container span a {
+  padding-left: 0.5rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.footer-container span a:hover {
+  background: linear-gradient(90.35deg, #da00ff, #e91e63, #ffc107);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}

@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -14,10 +14,29 @@ body {
 
 a {
   text-decoration: none;
-  color: #f7d354;
+  color: #f7d354 !important;
   transition: 0.5s;
 }
 
 a:hover {
-  color: #f7d380;
+  color: #f7d380 !important;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+html::-webkit-scrollbar-track {
+  background: #16252c;
+}
+html::-webkit-scrollbar-thumb {
+  background: #091921;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #083951;
 }
