@@ -59,7 +59,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 # 📝 Licença:
 
-Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo <a href="../LICENSE">LICENSE</a> para mais detalhes.
 
 <hr>
 
